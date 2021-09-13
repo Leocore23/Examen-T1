@@ -1,0 +1,276 @@
+body{
+    background: rgb(48, 46, 46);
+    font-family: 'Times New Roman';
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+header{
+    background: #1D4254;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 90px;
+    border: 3px solid #F6E482;
+    border-radius: 15px;
+    margin: 15px;
+    box-shadow: 2px 2px 10px 2px gold;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-weight: bold;
+    margin: -5px;
+}
+
+.navbar{
+    background: #3894A6;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 0 25px 0 10px; 
+    border: 5px gray; 
+    border-radius: 20px;  
+    margin: 10px;
+    box-shadow: 1px 1px 5px 1px #BCF3F7;
+}
+
+.medio{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.boton-uno,
+.boton-dos,
+.boton-tres,
+.boton-cuatro,
+.boton-cinco{
+    background: white;
+    color: black;
+    border-radius: 40px 45px 40px 45px;
+    letter-spacing: 4px;
+    font-size: 18px;
+    overflow: hidden;
+    transition: 0.2s;
+    height: 35px;
+    width: 115px;
+    cursor: pointer;
+}
+
+.boton-uno:hover,
+.boton-dos:hover,
+.boton-tres:hover,
+.boton-cuatro:hover,
+.boton-cinco:hover{
+    background: #E6D36E;
+    box-shadow: 0 0 10px #E6D36E, 0 0 40px
+    #E6D36E, 0 0 80px #E6D36E;
+}
+
+.boton-seis,
+.boton-siete{
+    background: #FFFFFF;
+    color: black;
+    border-radius: 40px 45px 40px 45px;
+    letter-spacing: 4px;
+    font-size: 18px;
+    overflow: hidden;
+    transition: 0.2s;
+    height: 35px;
+    width: 115px;
+    cursor: pointer;
+}
+
+.boton-seis:hover,
+.boton-siete:hover{
+    background: #E26269;
+    box-shadow: 0 0 10px #E26269, 0 0 40px
+    #E26269, 0 0 80px #E26269;
+}
+
+Main{
+    background: #0F4D65;
+    border: 3px solid #F6E482;
+    border-radius: 20px;
+    margin: 15px;
+    box-shadow: 2px 2px 10px 2px gold;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.sec-main{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    margin: 20px 15px 10px 15px; 
+}
+
+.section{
+    color: white;
+    font-weight: bold;
+}
+
+.formu-main{
+    background: #4D4E54;
+    display: flex;
+    flex-direction: column;
+    width: 950px;
+    padding: 35px;
+    border: 2px solid #AE8B56;
+    border-radius: 20px;
+    margin:  0 20px 20px 0;
+    box-shadow: 1px 1px 5px 1px #AE8B56;
+}
+
+.uno{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div1, .div2, .div3, .div4, .div5, .div6, .div7{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 160px;
+    border-radius: 5000px;
+    border: 1px solid white;
+    border-bottom: 2px outset whitesmoke;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+
+.div1:hover, .div2:hover, .div3:hover, .div4:hover, .div5:hover, .div6:hover, .div7:hover{
+    
+    background: #F7DCF7;
+    box-shadow: 0 0 10px #F7DCF7, 0 0 40px
+    #F7DCF7, 0 0 80px #F7DCF7;
+}
+
+.formu-aside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+    background: #4D4E54;
+    padding: 23px;
+    border-radius: 20px;
+    border: 1px solid #AE8B56;
+    box-shadow: 1px 1px 5px 1px #AE8B56;
+}
+
+.aside{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.text-link-a,
+.text-link-b,
+.text-link-c,
+.text-link-d,
+.text-link-e{
+    background: #F7B9AA;
+    color: black;
+    width: 140px;
+    height: 75px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gold;
+    border-radius: 40px;
+    margin: 8px;
+}
+
+.text-link-a:hover,
+.text-link-b:hover,
+.text-link-c:hover,
+.text-link-d:hover,
+.text-link-e:hover{
+    background: #F7CA9E;
+    box-shadow: 0 0 10px #F7CA9E, 0 0 40px
+    #F7CA9E, 0 0 80px #F7CA9E;
+}
+
+.formu-iconos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: arrow; 
+    width: 1300px;
+    height: 28px;
+    background: #4D4E54;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #AE8B56;
+    box-shadow: 1px 1px 5px 1px #AE8B56;
+    margin:  0 20px 20px 0;
+}
+
+.izquierda:hover,
+.derecha:hover{
+    background: #F1F1F1;
+    box-shadow: 0 0 10px #F1F1F1, 0 0 40px
+    #F1F1F1, 0 0 80px #F1F1F1;
+    cursor: pointer;
+} 
+
+.anonimous:hover,
+.babyyoda:hover,
+.bill:hover,
+.capitan:hover,
+.jason:hover,
+.momia:hover,
+.scream:hover,
+.sonic:hover,
+.vader:hover{
+    background: #AA9E65;
+    box-shadow: 0 0 10px #AA9E65, 0 0 40px
+    #AA9E65, 0 0 80px #AA9E65;
+    cursor: pointer;
+} 
+
+footer{
+    background: #151C2E;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    height: 90px;
+    border: 3px solid #F6E482;
+    border-radius: 15px;
+    margin: 15px;
+    box-shadow: 2px 2px 10px 2px gold;
+}
