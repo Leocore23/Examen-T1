@@ -67,6 +67,7 @@ header{
     height: 35px;
     width: 115px;
     cursor: pointer;
+    box-shadow: 2px 2px 10px 2px gold;
 }
 
 .boton-uno:hover,
@@ -91,6 +92,7 @@ header{
     height: 35px;
     width: 115px;
     cursor: pointer;
+    box-shadow: 2px 2px 10px 2px red;
 }
 
 .boton-seis:hover,
@@ -138,6 +140,7 @@ Main{
     border-radius: 20px;
     margin:  0 20px 20px 0;
     box-shadow: 1px 1px 5px 1px #AE8B56;
+    box-shadow: 2px 2px 10px 2px gold;
 }
 
 .uno{
@@ -166,6 +169,7 @@ Main{
     font-weight: bold;
     letter-spacing: 4px;
     cursor: pointer;
+    box-shadow: 2px 2px 10px 2px #F7DCF7;
 }
 
 .div1:hover, .div2:hover, .div3:hover, .div4:hover, .div5:hover, .div6:hover, .div7:hover{
@@ -186,6 +190,7 @@ Main{
     border-radius: 20px;
     border: 1px solid #AE8B56;
     box-shadow: 1px 1px 5px 1px #AE8B56;
+    box-shadow: 2px 2px 10px 2px gold;
 }
 
 .aside{
@@ -211,6 +216,7 @@ Main{
     border: 1px solid gold;
     border-radius: 40px;
     margin: 8px;
+    box-shadow: 2px 2px 10px 2px gold;
 }
 
 .text-link-a:hover,
@@ -236,6 +242,16 @@ Main{
     border: 2px solid #AE8B56;
     box-shadow: 1px 1px 5px 1px #AE8B56;
     margin:  0 20px 20px 0;
+    box-shadow: 2px 2px 10px 2px gold;
+}
+
+
+.anonimous, .babyyoda, .bill, .capitan, .jason, .momia, .scream, .sonic, .vader{
+    box-shadow: 2px 2px 10px 2px #AA9E65;
+}
+
+.izquierda, .derecha{
+    box-shadow: 2px 2px 10px 2px white;
 }
 
 .izquierda:hover,
